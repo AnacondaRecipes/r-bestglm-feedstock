@@ -10,8 +10,8 @@ package:
 source:
   fn: bestglm_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/bestglm_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/bestglm/bestglm_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/bestglm_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/bestglm/bestglm_{{ version }}.tar.gz
   sha256: 90f9b1e0a718cdc1ea273ae5a6717fa849cc01e0d0d12b333484bfcf2c0e5ab5
 
 
