@@ -63,6 +63,7 @@ about:
     PLS using AIC/BIC. Implements one-standard deviation rule for use with the `caret`
     package.
   license_family: GPL3
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
 
 extra:
   recipe-maintainers:
